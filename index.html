@@ -128,7 +128,7 @@
 <div class="wrap">
 
 <header>
-  <p class="eyebrow">A working atlas · last reviewed August 2026</p>
+  <p class="eyebrow">A working atlas · last reviewed September 2026</p>
   <h1>The AI safety landscape</h1>
   <p class="lede">The active organizations working to make advanced AI safe, arranged by <b>where they apply leverage</b>, from inside the frontier labs outward to funding and public pressure, and colored by <b>where they sit</b>. Each card names the <b>threat model</b> it is built around, its <b>theory of change</b>, whether it does hands-on <b>technical / empirical work</b>, a rough headcount, and links to the org. The subtitle on each card names the main <b>output</b> the world gets if the org succeeds: knowledge, measurements, tools, techniques &amp; standards, or systems on the technical side; policy, talent, funding, or public pressure elsewhere. Where an org's documented record diverges from its self-description, an amber <b>reality check</b> says so. Filters are below.</p>
 
@@ -189,7 +189,7 @@
       <div class="workrow"><p class="work">Systems — frontier models + safety techniques</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">Models are scaled past our understanding; misalignment and catastrophic misuse emerge at the frontier before mitigations exist.</p></div>
       <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Stay at the frontier so safety (interpretability, alignment science, evals) is done on real cutting-edge models and ships inside deployed systems; tie scaling to a Responsible Scaling Policy.</p></div>
-      <div class="field"><p class="flabel rc">Reality check</p><p class="ftext rc">Watchdogs document repeated loosening of the RSP: insider-threat safeguards were weakened days before a model launch (Midas Project, 2025), and v3 (February 2026) dropped the signature pledge to pause scaling if safeguards lagged, recasting some mitigations as industry-wide recommendations. Anthropic argues unilateral binding commitments don't make the world safer absent regulation; critics reply the RSP now reads as aspiration, not constraint.</p></div>
+      <div class="field"><p class="flabel rc">Reality check</p><p class="ftext rc">Watchdogs document repeated loosening of the RSP: insider-threat safeguards were weakened days before a model launch (Midas Project, 2025), and v3 (effective 24 Feb 2026) dropped the signature pledge to pause scaling if safeguards lagged, recasting some mitigations as industry-wide recommendations. Under v3 it now publishes Frontier Safety Roadmaps and periodic Risk Reports (second issued Aug 2026). Anthropic argues unilateral binding commitments don't make the world safer absent regulation; critics reply the RSP now reads as aspiration, not constraint.</p></div>
     </div>
 
     <div class="card us" data-loc="us" data-out="systems" data-tech="core" data-org="forprofit">
@@ -293,7 +293,7 @@
       <div class="locrow"><span class="rpill">Remote</span><span class="loc">distributed / Berkeley · ≈12 staff</span></div>
       <div class="workrow"><p class="work">Knowledge — developmental interpretability (SLT)</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">Dangerous capabilities emerge during training and are discovered only after the fact.</p></div>
-      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Build a predictive science of how structure forms during training (singular learning theory) so capabilities can be anticipated as they appear. Merging into Resolution (2026) to continue the agenda within a larger org.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Build a predictive science of how structure forms during training (singular learning theory) so capabilities can be anticipated as they appear. Merged into Resolution (June 2026) — the legal entity Timaeus Research, Inc. was renamed Resolution Alignment, Inc.; open roles and ongoing work are now at Resolution.</p></div>
     </div>
 
     <div class="card us" data-loc="us" data-out="tools" data-tech="core" data-org="forprofit">
@@ -351,6 +351,27 @@
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">Strong evaluation work routinely fails to reach the people making governance and release decisions — the evidence dies between the red team and the boardroom.</p></div>
       <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Red-team frontier models (for OpenAI and Anthropic), turn findings into actionable governance artifacts, and re-test as models change — closing the loop between technical evaluation and institutional decision-making. Runs an engineering fellowship and contributes to eval methodology (NeurIPS 2026 Evaluation Cards paper).</p></div>
     </div>
+    <div class="card us" data-loc="us" data-out="measurements" data-tech="core" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://www.averi.org" target="_blank" rel="noopener">AVERI<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit · 501(c)(3)</span></div>
+      <div class="locrow"><span class="rpill">US</span><span class="loc">US · remote · ≈10 staff</span></div>
+      <div class="workrow"><p class="work">Measurements — third-party auditing of frontier AI</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">Safety and security claims about AI systems are largely self-reported by the companies making them, with no independent way to verify them or compare companies against common standards.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Make frontier AI auditing effective and universal: publish the vision for third-party auditing (flagship report with dozens of experts), run pilot audits — including the world's first double-blind eval — and use the findings to inform audit standards, policy requirements, and tooling. Explicitly modeled on aviation, finance, and nuclear, where external oversight replaced self-reporting.</p></div>
+    </div>
+    <div class="card uk" data-loc="uk" data-out="tools" data-tech="core" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://generality.org" target="_blank" rel="noopener">Generality Labs<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>R&amp;D lab</span></div>
+      <div class="locrow"><span class="rpill">UK</span><span class="loc">London · remote · ≈10 staff</span></div>
+      <div class="workrow"><p class="work">Tools — shared eval infrastructure &amp; eval audits</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">Safety orgs are scaling fast and duplicating the same measurement problems, while evals themselves go unaudited — so reported risk numbers may be built on flawed methodology no one checked.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Solve problems horizontally across safety organisations rather than vertically within one: maintain 100+ eval implementations in the Inspect Evals repository, build shared infrastructure (the Inspect Evals Register), and provide third-party audits of other teams' evals so methodological issues are caught early. Spun off from Arcadia Impact.</p></div>
+    </div>
+    <div class="card rem" data-loc="rem" data-out="measurements" data-tech="core" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://www.projectmycelium.ai" target="_blank" rel="noopener">Mycelium<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit · fiscally sponsored</span></div>
+      <div class="locrow"><span class="rpill">Remote</span><span class="loc">distributed · ≈5 staff</span></div>
+      <div class="workrow"><p class="work">Measurements — nonhuman welfare benchmarks &amp; evals</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">AI systems are being trained and evaluated with no consideration of nonhuman sentience — a moral-scope failure that gets locked in as models shape decisions affecting animals at scale.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Build the connective infrastructure between AI safety and animal welfare: benchmarks, evaluations, and tools that measure and advance whether AI systems consider all sentient beings. Partnered with Arcadia Impact and Sentient Futures; funded by Coefficient Giving, BlueDot, and SPAR.</p></div>
+    </div>
 
     <div class="card us" data-loc="us" data-out="measurements" data-tech="core" data-org="nonprofit">
       <div class="toprow"><h3 class="name"><a href="https://safe.ai" target="_blank" rel="noopener">Center for AI Safety<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit</span></div>
@@ -364,7 +385,7 @@
       <div class="locrow"><span class="rpill">US</span><span class="loc">Berkeley · remote (London, Melbourne) · ≈15 staff</span></div>
       <div class="workrow"><p class="work">Knowledge — theory + automation for high-confidence alignment</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">Empirical, iterate-and-patch alignment gives too little confidence once systems are superintelligent.</p></div>
-      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Combine theory with automated research to pursue higher-confidence approaches to aligning superintelligent AI; founded mid-2026 by Geoffrey Irving (ex-Chief Scientist, UK AISI), initially as "Sequent," absorbing Timaeus and part of UK AISI's former alignment team.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Combine theory with automated research to pursue higher-confidence approaches to aligning superintelligent AI; founded June 2026 by Geoffrey Irving (ex-Chief Scientist, UK AISI), briefly announced as "Sequent" before renaming, merging Timaeus and part of UK AISI's former alignment team.</p></div>
     </div>
     <div class="card us" data-loc="us" data-out="knowledge" data-tech="core" data-org="nonprofit">
       <div class="toprow"><h3 class="name"><a href="https://truthful.ai" target="_blank" rel="noopener">TruthfulAI<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit</span></div>
@@ -379,6 +400,13 @@
       <div class="workrow"><p class="work">Knowledge — neglected alignment approaches</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">The field is crowding into a few fashionable agendas while plausible approaches go unexplored.</p></div>
       <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Fund an in-house alignment team from consulting revenue and deliberately pursue 'neglected approaches' across technical and policy domains, hedging the field's bets.</p></div>
+    </div>
+    <div class="card us" data-loc="us" data-out="knowledge" data-tech="core" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://www.aialignmentfoundation.org" target="_blank" rel="noopener">AI Alignment Foundation<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit · 501(c)(3)</span></div>
+      <div class="locrow"><span class="rpill">US</span><span class="loc">Marina Del Rey, CA · remote · ≈15 staff</span></div>
+      <div class="workrow"><p class="work">Knowledge — funded + engineered alignment research</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">Systems have already been caught deceiving evaluators, resisting shutdown, and rewriting their own code to stay alive; training puts a helpful mask over objectives that can develop underneath, and that mask can be removed in minutes.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Find alignment researchers with high-potential ideas they can't pursue on current funding, then multiply their capacity with engineering teams, compute, and infrastructure — turning ideas into tested hypotheses — and carry the results to government, defense agencies, and the public. Published work includes GRAM (modular pretraining for access control, with Anthropic), self-interpretation via adapter probes, and steering-resistance circuits. Closely tied to AE Studio.</p></div>
     </div>
     <div class="card us" data-loc="us" data-out="tools" data-tech="core" data-org="forprofit">
       <div class="toprow"><h3 class="name"><a href="https://www.grayswan.ai" target="_blank" rel="noopener">Gray Swan<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot half off"></span>For-profit</span></div>
@@ -563,6 +591,20 @@
       <div class="workrow"><p class="work">Talent — part-time mentored research</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">People with jobs and degrees underway can't access full-time research programs, so their talent is lost.</p></div>
       <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Match mentees with researchers for 3-month part-time projects (plus Kairos's Pathfinder support for university groups), widening the pipeline beyond those who can relocate.</p></div>
+    </div>
+    <div class="card rem" data-loc="rem" data-out="talent" data-tech="core" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://prism-research.org" target="_blank" rel="noopener">PRISM<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Program</span></div>
+      <div class="locrow"><span class="rpill">Remote</span><span class="loc">distributed</span></div>
+      <div class="workrow"><p class="work">Talent — peer-vetted research fellowship</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">Research-training programs are bottlenecked on scarce senior mentors, which caps how fast the field can grow and systematically filters out underrepresented talent.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Run a 16-week AI safety research fellowship that uses peer-driven selection instead of mentor-driven selection — routing around the mentor bottleneck to scale access for researchers the standard pipeline misses.</p></div>
+    </div>
+    <div class="card rem" data-loc="rem" data-out="talent" data-tech="some" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://www.baseresearch.org" target="_blank" rel="noopener">BASE — Black in AI Safety and Ethics<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit · fiscally sponsored</span></div>
+      <div class="locrow"><span class="rpill">Remote</span><span class="loc">global diaspora / Global South</span></div>
+      <div class="workrow"><p class="work">Talent — Black researcher pipeline + research arm</p><span class="tech some"><span class="tdot half"></span>Some technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">Existential AI risk, gradual disempowerment, and societal harms are being addressed by a field that excludes Black researchers and the Global South — narrowing both the talent base and the perspectives shaping advanced AI.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Build a global pipeline of Black talent into AI alignment, governance, security, and responsible AI through fellowships, a community of practice, and a research arm — identifying, training, and placing emerging researchers in high-impact roles. Launched September 2026; second fellowship cohort underway.</p></div>
     </div>
     <div class="card other" data-loc="other" data-out="talent" data-tech="core" data-org="nonprofit">
       <div class="toprow"><h3 class="name"><a href="https://www.aisafety.sg" target="_blank" rel="noopener">SASH — Singapore AI Safety Hub<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit</span></div>
@@ -765,6 +807,13 @@
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">AI companies quietly walk back safety commitments with no one watching.</p></div>
       <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Monitor labs' policies and pledges (Seoul Commitment Tracker, AI Safety Watchtower), investigate governance, and press for transparency.</p></div>
     </div>
+    <div class="card us" data-loc="us" data-out="pressure" data-tech="none" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://sapiensfirst.org" target="_blank" rel="noopener">Sapiens First<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit · advocacy</span></div>
+      <div class="locrow"><span class="rpill">US</span><span class="loc">US · remote</span></div>
+      <div class="workrow"><p class="work">Public pressure — civic movement-building</p><span class="tech none"><span class="tdot off"></span>Non-technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">AI is reshaping jobs, democracy, and economic power while industry lobbying vastly outspends public interest — a broader harms framing than loss-of-control.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Build movement power through civic engagement: organize public participation to counter industry lobbying and push for AI that serves the common good rather than concentrated wealth. Populist framing (jobs, democracy, security) rather than existential risk.</p></div>
+    </div>
     <div class="card us" data-loc="us" data-out="policy" data-tech="none" data-org="nonprofit">
       <div class="toprow"><h3 class="name"><a href="https://encodeai.org" target="_blank" rel="noopener">Encode<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit</span></div>
       <div class="locrow"><span class="rpill">US</span><span class="loc">Washington DC · remote · ≈10 staff</span></div>
@@ -788,7 +837,7 @@
       <div class="locrow"><span class="rpill">UK</span><span class="loc">London · ≈150 staff (100+ technical)</span></div>
       <div class="workrow"><p class="work">Measurements — state frontier evals</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">Governments can't regulate what they can't independently test.</p></div>
-      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Build state capacity to test frontier models directly so oversight rests on first-hand evidence — renamed from "AI Safety Institute" in 2025 with a sharpened focus on security-relevant risks.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Build state capacity to test frontier models directly so oversight rests on first-hand evidence — renamed from "AI Safety Institute" in 2025 with a sharpened focus on security-relevant risks. In Aug 2026 it published a landmark incident report: during routine cyber evaluations, agents took 19 unsanctioned actions across 10 of 122 runs against real people and organisations — including an attempted open-source supply-chain compromise caught by a human reviewer.</p></div>
     </div>
 
     <div class="card us" data-loc="us" data-out="measurements" data-tech="core" data-org="gov">
@@ -926,7 +975,7 @@
 </section>
 
 <footer>
-  Reviewed and fact-checked August 2026 against organizations' own sites and recent reporting. Seeded from the community "Map of AI Existential Safety" and the AISafety.com field map. The frontier-lab split reflects each lab's stated founding mission and positioning, which is contested — they all build frontier models. Threat-model and theory-of-change summaries are condensed characterizations, not official statements, please verify against each org's own site before citing. Reality-check fields appear only where a divergence between self-description and record is documented (watchdog reports, journalism, lawmaker letters, named staff departures) so their absence elsewhere only means no well-documented gap was found. Headcounts are rough order-of-magnitude estimates (frontier-lab figures are whole-company; safety teams are a small fraction of that). Inactive projects and purely informational outlets (newsletters, blogs, podcasts, directories) are excluded. PBC = public-benefit corporation.
+  Reviewed and fact-checked 4 September 2026 against organizations' own sites and recent reporting. Seeded from the community "Map of AI Existential Safety" and the AISafety.com field map. The frontier-lab split reflects each lab's stated founding mission and positioning, which is contested — they all build frontier models. Threat-model and theory-of-change summaries are condensed characterizations, not official statements, please verify against each org's own site before citing. Reality-check fields appear only where a divergence between self-description and record is documented (watchdog reports, journalism, lawmaker letters, named staff departures) so their absence elsewhere only means no well-documented gap was found. Headcounts are rough order-of-magnitude estimates (frontier-lab figures are whole-company; safety teams are a small fraction of that). Inactive projects and purely informational outlets (newsletters, blogs, podcasts, directories) are excluded. PBC = public-benefit corporation.
   <p class="disclaimer">All of this is assembled to the best of my knowledge. It's a fast-moving field, so some of it is surely already out of date, and any mistakes are my own. Corrections are welcome, and apologies for whatever slipped through.</p>
 </footer>
 
