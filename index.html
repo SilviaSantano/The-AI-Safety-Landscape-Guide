@@ -384,6 +384,14 @@
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">Safety and security claims about AI systems are largely self-reported by the companies making them, with no independent way to verify them or compare companies against common standards.</p></div>
       <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Make frontier AI auditing effective and universal: set out the vision for third-party auditing, run the pilots that prove it works — including the first double-blind evaluation of a proprietary model — and turn what they show into audit standards and policy requirements. Modelled on aviation, finance and nuclear, where external oversight replaced self-reporting.</p></div>
     </div>
+    <div class="card rem" data-loc="rem" data-out="tools" data-tech="core" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://openmined.org" target="_blank" rel="noopener">OpenMined<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit</span></div>
+      <div class="locrow"><span class="rpill">Remote</span><span class="loc">distributed · remote-first · ≈20 staff + large volunteer community</span></div>
+      <div class="workrow"><p class="work">Tools — infrastructure for external audit of AI systems</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">Independent scrutiny of frontier systems runs into a structural wall: the weights, data and internals an auditor would need to inspect are exactly what a lab cannot hand over.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Build the plumbing that makes external oversight possible without disclosure: privacy-preserving &quot;structured transparency&quot; infrastructure (PySyft, secure enclaves) letting approved researchers run approved analyses on models and data they never see — on the theory that audit mandates are unenforceable until the means to comply exist.</p></div>
+    </div>
+
     <div class="card uk" data-loc="uk" data-out="tools" data-tech="core" data-org="nonprofit">
       <div class="toprow"><h3 class="name"><a href="https://generality.org" target="_blank" rel="noopener">Generality Labs<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>R&amp;D lab</span></div>
       <div class="locrow"><span class="rpill">UK</span><span class="loc">London · remote · ≈10 staff · $4.4M seed</span></div>
@@ -435,6 +443,15 @@
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">Systems have already been caught deceiving evaluators, resisting shutdown, and rewriting their own code to stay alive; training puts a helpful mask over objectives that can develop underneath, and that mask can be removed in minutes.</p></div>
       <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Find alignment researchers with high-potential ideas they cannot pursue on current funding, then multiply their capacity with engineering teams, compute and infrastructure — and carry the results to policymakers and defense agencies. Closely tied to AE Studio.</p></div>
     </div>
+    <div class="card other" data-loc="other" data-out="measurements" data-tech="core" data-org="forprofit">
+      <div class="toprow"><h3 class="name"><a href="https://irregular.com" target="_blank" rel="noopener">Irregular<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot half off"></span>For-profit</span></div>
+      <div class="locrow"><span class="rpill">Other</span><span class="loc">Tel Aviv · remote · ≈30 staff · $80M Series A (2025)</span></div>
+      <div class="workrow"><p class="work">Measurements — frontier security &amp; offensive-capability evals</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">Frontier models are becoming capable enough to conduct real cyber operations, and the security boundaries meant to contain them during testing are themselves untested.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Stress-test frontier systems in adversarial simulated environments and sell the results back to the labs — pre-deployment cyber and offensive-capability evaluations now cited in OpenAI, Anthropic, Google DeepMind and Meta model cards (formerly Pattern Labs). The bet is that security expertise, not alignment theory, is what catches the near-term catastrophic failure modes.</p></div>
+      <div class="field"><p class="flabel rc">Reality check</p><p class="ftext rc">Irregular sits on both sides of the line it polices: in 2026 reporting tied containment failures during its own evaluations at several labs to misconfigured test boundaries — an evaluation perimeter believed closed that was not. It is a useful demonstration that security evaluation is itself safety-critical engineering, and a caution about depending on one commercial vendor for it.</p></div>
+    </div>
+
     <div class="card us" data-loc="us" data-out="tools" data-tech="core" data-org="forprofit">
       <div class="toprow"><h3 class="name"><a href="https://www.grayswan.ai" target="_blank" rel="noopener">Gray Swan<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot half off"></span>For-profit</span></div>
       <div class="locrow"><span class="rpill">US</span><span class="loc">Pittsburgh · remote · ≈35 staff</span></div>
@@ -494,6 +511,14 @@
       <div class="workrow"><p class="work">Knowledge — worst-case alignment theory</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
       <div class="field"><p class="flabel">Threat model</p><p class="ftext">Alignment that works only empirically fails once the model is smarter than its overseers.</p></div>
       <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Do worst-case theory now — eliciting latent knowledge and a formal foundation for mechanistically explaining neural-network behavior (heuristic estimation) — aiming for methods that hold even against superhuman models.</p></div>
+    </div>
+    <div class="card us" data-loc="us" data-out="knowledge" data-tech="core" data-org="nonprofit">
+      <div class="toprow"><h3 class="name"><a href="https://maisi.org" target="_blank" rel="noopener">MAISI — Mathematical AI Safety Institute<span class="ext">↗</span></a></h3><span class="badge"><span class="tdot on"></span>Nonprofit · institute</span></div>
+      <div class="locrow"><span class="rpill">US</span><span class="loc">San Francisco Bay Area · independent · $10M seed · 10&ndash;30 faculty from Jan 2027</span></div>
+      <div class="workrow"><p class="work">Knowledge — foundational theory, recruiting mathematicians</p><span class="tech core"><span class="tdot on"></span>Technical</span></div>
+      <div class="field"><p class="flabel">Threat model</p><p class="ftext">We lack the conceptual groundwork for building a safe superintelligence, and the field is trying to engineer its way past a gap that is mathematical. Its founder co-authored "A Taxonomy of Omnicidal Futures Involving Artificial Intelligence" (2025), covering both misuse and loss of control.</p></div>
+      <div class="field"><p class="flabel">Theory of change</p><p class="ftext toc">Pull research mathematicians into AI safety, on the premise that the field needs foundational theory it does not yet have: what networks actually learn, how they decide, and what a safety guarantee could even look like. Runs residential semesters, seminars and working groups, publishing through lecture notes where peer review is too slow.</p></div>
+      <div class="field"><p class="flabel">Additional details</p><p class="ftext ad">Scientific director is Jacob Tsimerman, 2026 Fields medallist; Andrew Critch is executive director. The scientific advisory panel is unusually heavyweight for a first-year organization: Timothy Gowers, Ravi Vakil, Geoffrey Irving and Paul Christiano.</p></div>
     </div>
 
     <div class="card us" data-loc="us" data-out="knowledge" data-tech="core" data-org="academic">
